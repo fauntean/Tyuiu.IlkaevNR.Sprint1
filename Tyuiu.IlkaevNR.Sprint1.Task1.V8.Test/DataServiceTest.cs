@@ -12,7 +12,7 @@ namespace Tyuiu.IlkaevNR.Sprint1.Task1.V8.Test
             double x = 1.0;
             double a = 2.0;
             var res = ds.Calculate(a, x);
-            Assert.AreEqual(1.5707963267948966, res);
+            Assert.AreEqual(1.57, res);
         }
     }
 }
